@@ -4,6 +4,17 @@
   font-weight: 400;
 }
 
+:root {
+  --color-bg: hsl(from var(--color-fg) h s calc(l - 2));
+  --color-fg: hsl(0 0 100);
+  --color-text: hsl(0 0 5);
+  --color-text-muted: from(var(--color-text) h s calc(l + 25));
+  --color-border: from(var(--color-text) h s l / 95%);
+  --color-accent: hsl(92, 20, 35);
+  --color-focus: hsl(224, 69, 54);
+  --color-invalid: hsl(0, 64, 45);
+}
+
 *,
 *::before,
 *::after {
@@ -24,6 +35,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 2.75fr;
   min-height: 100dvh;
+  background-color: var(--color-bg);
   font-family: system-ui, sans-serif;
 }
 
