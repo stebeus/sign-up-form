@@ -76,15 +76,15 @@ main {
 }
 
 section {
-  padding: 1.75rem 2.5rem;
+  padding: 0.75rem 2rem;
   background-color: var(--color-fg);
-  box-shadow: 0px 5px 5px var(--color-text);
+  box-shadow: 0px 5px 10px var(--color-border);
 }
 
 h2 {
   font-weight: 600;
   font-size: 1.625rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .wrap {
@@ -109,14 +109,15 @@ label {
 input {
   width: 30ch;
   border: 1px solid var(--color-border);
-  border-radius: 2px;
-  padding: 0.25rem 0.625rem;
+  border-radius: 3px;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--color-fg);
 }
 
 input:focus {
   outline: transparent;
   border-color: var(--color-focus);
-  box-shadow: 0 3px 5px var(--color-border);
+  box-shadow: 0 2px 5px var(--color-border);
 }
 
 input:invalid {
