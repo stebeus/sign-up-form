@@ -47,6 +47,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10rem;
 }
 
 .logo__img {
@@ -55,4 +56,5 @@ button {
 
 .banner p {
   margin-top: auto;
+  padding: 0.5rem;
 }
