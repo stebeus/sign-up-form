@@ -58,3 +58,8 @@ button {
   margin-top: auto;
   padding: 0.5rem;
 }
+
+.banner a {
+  color: inherit;
+  text-underline-offset: 0.1rem;
+}
