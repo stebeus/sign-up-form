@@ -21,8 +21,8 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: row-reverse;
+  display: grid;
+  grid-template-columns: 1fr 2.75fr;
   min-height: 100dvh;
   font-family: system-ui, sans-serif;
 }
@@ -35,6 +35,10 @@ img {
 input,
 button {
   font: inherit;
+}
+
+main {
+  order: 1;
 }
 
 .banner {
