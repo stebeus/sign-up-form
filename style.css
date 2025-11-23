@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Norse";
   src: url(assets/norse-bold.otf);
-  font-weight: bold;
+  font-weight: 400;
 }
 
 *,
