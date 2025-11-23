@@ -60,7 +60,7 @@ main {
   margin-top: 10rem;
   padding: 0.75rem 0;
   background-color: hsl(0 0 0 / 50%);
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(1px);
   font-family: "Norse";
   font-size: 2.75rem;
 }
