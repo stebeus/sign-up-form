@@ -119,6 +119,10 @@ input:focus {
   box-shadow: 0 3px 5px var(--color-border);
 }
 
+input:invalid {
+  border-color: var(--color-invalid);
+}
+
 /* ===SIDE BANNER=== */
 
 .banner {
