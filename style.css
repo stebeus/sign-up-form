@@ -1,3 +1,12 @@
+/*
+  CSS DIRECTORY
+    1. =GLOBAL
+    2. =MAIN
+    3. =SIDE BANNER
+*/
+
+/* ===GLOBAL=== */
+
 @font-face {
   font-family: "Norse";
   src: url(assets/norse-bold.otf);
@@ -40,23 +49,33 @@ body {
   font-family: system-ui, sans-serif;
 }
 
+/* --Media-- */
+
 img {
   display: block;
   max-width: 100%;
 }
+
+/* --Forms-- */
 
 input,
 button {
   font: inherit;
 }
 
+/* --Links-- */
+
 a {
   color: var(--color-accent);
 }
 
+/* ===MAIN=== */
+
 main {
   order: 1;
 }
+
+/* ===SIDE BANNER=== */
 
 .banner {
   display: flex;
@@ -69,6 +88,8 @@ main {
   color: var(--color-fg);
   text-align: center;
 }
+
+/* --Logo-- */
 
 .logo {
   display: flex;
@@ -89,6 +110,8 @@ main {
 .logo__title {
   margin-left: 0.25rem;
 }
+
+/* --Attribution link-- */
 
 .banner p {
   margin-top: auto;
