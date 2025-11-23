@@ -18,7 +18,7 @@
   --color-fg: hsl(0 0 100);
   --color-text: hsl(0 0 8);
   --color-text-transparent: hsl(from var(--color-text) h s l / 60%);
-  --color-border: hsl(from var(--color-text) h s l / 95%);
+  --color-border: hsl(from var(--color-text) h s l / 15%);
   --color-accent: hsl(92 20 35);
   --color-focus: hsl(224 69 54);
   --color-invalid: hsl(0 64 45);
