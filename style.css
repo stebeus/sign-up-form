@@ -58,9 +58,34 @@ img {
 
 /* --Forms-- */
 
-input,
-button {
+button,
+input {
   font: inherit;
+}
+
+input {
+  width: 30ch;
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--color-fg);
+}
+
+input:focus {
+  outline: transparent;
+  border-color: var(--color-focus);
+  box-shadow: 0 2px 5px var(--color-border);
+}
+
+input:invalid {
+  border-color: var(--color-invalid);
+}
+
+label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.0675rem;
 }
 
 /* --Links-- */
@@ -99,31 +124,6 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 0.175rem;
-}
-
-label {
-  font-size: 0.75rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.0675rem;
-}
-
-input {
-  width: 30ch;
-  border: 1px solid var(--color-border);
-  border-radius: 3px;
-  padding: 0.25rem 0.5rem;
-  background-color: var(--color-fg);
-}
-
-input:focus {
-  outline: transparent;
-  border-color: var(--color-focus);
-  box-shadow: 0 2px 5px var(--color-border);
-}
-
-input:invalid {
-  border-color: var(--color-invalid);
 }
 
 /* ===SIDE BANNER=== */
