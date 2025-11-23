@@ -8,36 +8,52 @@
   </head>
   <body>
     <main>
-      <p class="introductory-text">
-        This is not a real online service! You know you need something like this
-        in your life to help you realize your deepest dreams. Sign up
-        <em>now</em> to get started.
-      </p>
-      <p class="introductory-text">You <em>know</em> you want to.</p>
+      <div class="introduction">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up
+          <em>now</em> to get started.
+        </p>
+        <p>You <em>know</em> you want to.</p>
+      </div>
       <form action="#" method="post">
         <section>
           <h2>Let's do this!</h2>
-          <div class="row-1">
-            <label for="first-name">First name</label>
-            <input type="text" id="first-name" />
-            <label for="last-name">Last name</label>
-            <input type="text" id="last-name" />
+          <div class="wrap">
+            <div class="flex-input">
+              <label for="first-name">First name</label>
+              <input type="text" id="first-name" />
+            </div>
+            <div class="flex-input">
+              <label for="last-name">Last name</label>
+              <input type="text" id="last-name" />
+            </div>
           </div>
-          <div class="row-2">
-            <label for="email">Email</label>
-            <input type="email" id="email" />
-            <label for="phone-num">Phone number</label>
-            <input type="tel" id="phone-num" />
+          <div class="wrap">
+            <div class="flex-input">
+              <label for="email">Email</label>
+              <input type="email" id="email" />
+            </div>
+            <div class="flex-input">
+              <label for="phone-num">Phone number</label>
+              <input type="tel" id="phone-num" />
+            </div>
           </div>
-          <div class="row-3">
-            <label for="pwd">Password</label>
-            <input type="password" id="pwd" />
-            <label for="confirm-pwd">Confirm password</label>
-            <input type="password" id="confirm-pwd" />
+          <div class="wrap">
+            <div class="flex-input">
+              <label for="pwd">Password</label>
+              <input type="password" id="pwd" />
+            </div>
+            <div class="flex-input">
+              <label for="confirm-pwd">Confirm password</label>
+              <input type="password" id="confirm-pwd" />
+            </div>
           </div>
         </section>
-        <button type="submit">Create account</button>
-        <p>Already have an account? <a href="#">Log in</a></p>
+        <div class="sign-up">
+          <button type="submit">Create account</button>
+          <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
       </form>
     </main>
     <aside class="banner">
