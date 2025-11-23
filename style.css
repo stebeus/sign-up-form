@@ -72,6 +72,7 @@ button {
   box-shadow: 0px 5px 7px var(--color-border);
   color: var(--color-fg);
   font-weight: 600;
+  transition: all ease 50ms;
 }
 
 input {
@@ -99,10 +100,20 @@ label {
   letter-spacing: 0.0675rem;
 }
 
+button:hover {
+  background-color: hsl(from var(--color-accent) h s calc(l - 5));
+  transition: all ease 50ms;
+  cursor: pointer;
+}
+
 /* --Links-- */
 
 a {
   color: var(--color-accent);
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 /* ===MAIN=== */
