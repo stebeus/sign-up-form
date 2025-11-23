@@ -48,6 +48,8 @@ button {
   justify-content: center;
   align-items: center;
   margin-top: 10rem;
+  background-color: rgba(0, 0, 0, 0.432);
+  padding: 0.65em 0;
 }
 
 .logo__img {
