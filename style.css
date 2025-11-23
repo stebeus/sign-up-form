@@ -81,6 +81,25 @@ section {
   box-shadow: 0px 5px 5px var(--color-text);
 }
 
+.wrap {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 1rem;
+}
+
+.flex-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.175rem;
+}
+
+label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.0675rem;
+}
+
 /* ===SIDE BANNER=== */
 
 .banner {
