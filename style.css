@@ -100,6 +100,17 @@ main {
   order: 1;
 }
 
+p {
+  margin-bottom: 1rem;
+}
+
+.introduction {
+  margin: 3rem 2.5rem 4rem;
+  max-width: 53ch;
+  font-size: 1.625rem;
+  font-weight: 600;
+}
+
 /* --Signup Inputs-- */
 
 section {
