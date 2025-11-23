@@ -106,6 +106,13 @@ label {
   letter-spacing: 0.0675rem;
 }
 
+input {
+  width: 30ch;
+  border: 1px solid var(--color-border);
+  border-radius: 2px;
+  padding: 0.25rem 0.625rem;
+}
+
 /* ===SIDE BANNER=== */
 
 .banner {
