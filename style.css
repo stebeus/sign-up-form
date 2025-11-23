@@ -122,6 +122,10 @@ main {
   order: 1;
 }
 
+main a {
+  font-weight: 600;
+}
+
 p {
   margin-bottom: 1rem;
 }
