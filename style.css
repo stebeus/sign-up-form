@@ -36,6 +36,7 @@ body {
   grid-template-columns: 1fr 2.75fr;
   min-height: 100dvh;
   background-color: var(--color-bg);
+  color: var(--color-text);
   font-family: system-ui, sans-serif;
 }
 
@@ -49,6 +50,10 @@ button {
   font: inherit;
 }
 
+a {
+  color: var(--color-accent);
+}
+
 main {
   order: 1;
 }
@@ -56,12 +61,12 @@ main {
 .banner {
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: var(--color-text);
   background-image: url(assets/green-leaf-plant-in-close-up-photography.avif);
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: contain;
-  color: white;
+  color: var(--color-fg);
   text-align: center;
 }
 
@@ -71,7 +76,7 @@ main {
   align-items: center;
   margin-top: 10rem;
   padding: 0.75rem 0;
-  background-color: hsl(0 0 0 / 50%);
+  background-color: var(--color-text-transparent);
   backdrop-filter: blur(1px);
   font-family: "Norse";
   font-size: 2.75rem;
